@@ -9,7 +9,7 @@ export class Developer {
 
   get firstName() {
     //cadena de texto y trim elimina espacios en blanco
-    return `${this._firstName} ${this.lastName}`.trim();
+    return `${this._firstName} ${this._lastName}`.trim();
   }
 
 
